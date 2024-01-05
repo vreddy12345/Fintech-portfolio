@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Add your styles here */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: indigo;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section {
+    display: none;
+    padding: 20px;
+}
+
+
+.portfolio-section {
+    display: block;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+}
+
+.para {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.para1 {
+    font-family: Roboto;
+    font-weight: bold;
+    background-color: gold;
+}
+
+.about {
+    background-color: green;
+}
+
+.project {
+    background-color: black;
+}
+
+.contact {
+    background-color: orange;
+}
+
+.image {
+    height: 450px;
+    width: 400px;
+}
+
+.container {
+    background-color: #f0bd8b;
+
+}
