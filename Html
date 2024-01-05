@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>V Venkata Mahesh Reddy</h1>
+        <nav>
+            <ul>
+                <li class="about"><a href="#about" onclick="showSection('about')">About</a></li>
+                <li class="project"><a href="#projects" onclick="showSection('projects')">Projects</a></li>
+                <li class="contact"><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#">LinkedIn</a>
+    </header>
+    <div class="container">
+        <section id="about" class="portfolio-section">
+            <h2>About us.</h2>
+            <p> V Venkata Mahesh Reddy</p>
+            <img src="https://lh3.googleusercontent.com/pw/ABLVV85AOcZ3ZpxwA75rkdwgW28PaYR-ufYW--OGeaACUdBCeeFKxlhXmI4RTh7252KZP-Lf7NZD5risyB4b9UiPg1GvsZh-bpzDLZSbob-gU4UW5OqKDAdAqd0Jyx4G5Z3uYM8VMzZCA6rt_ABUiQPoAHSX=w609-h913-s-no-gm?authuser=0" class="image" />
+            <p class="para">I have hands on Experience in various Technologies like </p>
+            <p class="para1">HTML, CSS, JAVASCRIPT, REACTJS, NODEJS.</p>
+        </section>
+
+        <section id="projects" class="portfolio-section">
+            <h2>Projects</h2>
+            <div id="project-form">
+
+                <button class="btn" onclick="addProject()">Add</button>
+            </div>
+            <div id="projects-view">
+
+            </div>
+        </section>
+
+        <section id="contact" class="portfolio-section">
+            <h2>Contact us.</h2>
+            <P>MOBILE NO: <span class="para">7022768106</span></P>
+            <P>EMAIL: <span class="para">venkatmaheshreddy9611@gmail.com</span></P>
+
+        </section>
+
+    </div>
+
+
+</body>
+
+</html>
