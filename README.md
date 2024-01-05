@@ -1,8 +1,8 @@
-# [Fintech-portfolio] - Personal Portfolio Website
+# Fintech-portfolio - Personal Portfolio Website
 
 ## Overview
 
-[Fintech-portfolio is a personal portfolio website showcasing my skills, projects, and contact information. The website is designed to be responsive and optimized for various devices.
+Fintech-portfolio is a personal portfolio website showcasing my skills, projects, and contact information. The website is designed to be responsive and optimized for various devices.
 
 
 
@@ -13,4 +13,5 @@
 - Dynamic project addition functionality.
 - Navigation buttons for easy access to different sections.
 - LinkedIn button for quick access to my LinkedIn profile.
+- Whenever user clicks on particular section it will navigate to particular section.
 
